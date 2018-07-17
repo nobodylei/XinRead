@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/in_book_item"
+        layout="@layout/item_books" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="25dp"
+        android:text="@string/introduce"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tv_book_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="#333333"
+        android:scrollbars="vertical"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_book_game"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/book_btn_bg"
+        android:text="@string/btn_game"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_book_note"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/book_btn_bg"
+        android:text="@string/btn_notes"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_mind_map"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/book_btn_bg"
+        android:text="@string/btn_mind_map"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/bnt_buy_book"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/book_btn_bg"
+        android:text="@string/btn_buy_book"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

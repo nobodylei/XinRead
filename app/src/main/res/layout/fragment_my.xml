@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/ll_my_head"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:background="@drawable/my_bg"
+        >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/img_my_head"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            app:actualImageScaleType="centerCrop"
+            app:roundAsCircle="true"
+            app:placeholderImage="@drawable/default_head"
+            />
+        <!--<com.rjwl.reginet.xinread.utils.MyImageView
+            android:id="@+id/img_my_head"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/default_head" />-->
+
+        <TextView
+            android:id="@+id/tv_my_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_alignTop="@id/img_my_head"
+            android:layout_marginTop="10dp"
+            android:text="@string/nothing"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_my_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/tv_my_name"
+            android:layout_alignLeft="@id/tv_my_name"
+            android:text="一年一班" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_my_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ll_my_head"
+        android:paddingLeft="15dp"
+        android:orientation="vertical">
+
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:itemIconTint="@color/background"
+            app:menu="@menu/my_menu" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_books"
+            android:icon="@drawable/my_books"
+            android:title="@string/my_books" />
+        <!--android:icon="@drawable/icon_data"-->
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/get_read"
+            android:icon="@drawable/read_get"
+            android:title="@string/get_read" />
+        <!--android:icon="@drawable/icon_voice"-->
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/read_notes"
+            android:icon="@drawable/read_notes"
+            android:title="@string/book_notes" />
+    </group>
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/rank_list"
+            android:icon="@drawable/rank_list"
+            android:title="@string/rank" />
+    </group>
+    <group
+        android:id="@+id/group6"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/invite"
+            android:title="邀请朋友加入" />
+    </group>
+    <!--<group
+        android:id="@+id/group7"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="帮助说明" />
+    </group>-->
+    <group
+        android:id="@+id/group5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_set"
+            android:icon="@drawable/menu_set"
+            android:title="@string/my_set" />
+
+    </group>
+
+
+</menu>

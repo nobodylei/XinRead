@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/lv_think_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:divider="#00000000"></ListView>
+    <!--<RelativeLayout
+        android:id="@+id/rl_think1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/think_map_bg">
+
+        <TextView
+            android:id="@+id/tv_think_map1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="思维导图1"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="35dp"
+            android:text="去挑战 >>"
+            android:textColor="#333333" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_think2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/rl_think1"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/think_map_bg">
+
+        <TextView
+            android:id="@+id/tv_think_map2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="思维导图1"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="35dp"
+            android:text="去挑战 >>"
+            android:textColor="#333333" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_think3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/rl_think2"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/think_map_bg">
+
+        <TextView
+            android:id="@+id/tv_think_map3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="思维导图1"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="35dp"
+            android:text="去挑战 >>"
+            android:textColor="#333333" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_think4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/rl_think3"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/think_map_bg">
+
+        <TextView
+            android:id="@+id/tv_think_map4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="思维导图1"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="35dp"
+            android:text="去挑战 >>"
+            android:textColor="#333333" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_think5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/rl_think4"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/think_map_bg">
+
+        <TextView
+            android:id="@+id/tv_think_map5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="思维导图1"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="35dp"
+            android:text="去挑战 >>"
+            android:textColor="#333333" />
+    </RelativeLayout>-->
+
+</RelativeLayout>

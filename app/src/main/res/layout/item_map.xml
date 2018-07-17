@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_think"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginTop="18dp"
+    android:layout_marginBottom="18dp"
+    android:paddingBottom="18dp"
+    android:background="@drawable/think_map_bg">
+
+    <TextView
+        android:id="@+id/tv_think_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:text="思维导图1"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="35dp"
+        android:text="去挑战 >>"
+        android:textColor="@color/white" />
+</RelativeLayout>

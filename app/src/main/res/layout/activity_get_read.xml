@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/get_bg">
+
+    <ImageView
+        android:id="@+id/img_read_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:padding="5dp"
+        android:src="@drawable/back" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img_read_head"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        app:actualImageScaleType="centerCrop"
+        app:placeholderImage="@drawable/default_head"
+        app:roundAsCircle="true" />
+
+
+    <!--<com.rjwl.reginet.xinread.utils.MyImageView
+        android:id="@+id/img_read_head"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/default_head" />-->
+
+    <TextView
+        android:id="@+id/tv_read_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_read_head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="未知"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_read_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_read_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="一年级"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_read_school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_read_class"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="第一中学"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_get_one"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_read_school"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/other_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="2018-5-9\n我加入了馨阅读的大家庭" />
+
+    <TextView
+        android:id="@+id/tv_get_two"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_get_one"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/other_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="在这里读了3本书" />
+
+    <TextView
+        android:id="@+id/tv_get_three"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_get_two"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/other_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="一个思维导图都没做" />
+
+    <LinearLayout
+        android:id="@+id/ll_read_nothing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_get_three"
+        android:orientation="horizontal"></LinearLayout>
+</RelativeLayout>

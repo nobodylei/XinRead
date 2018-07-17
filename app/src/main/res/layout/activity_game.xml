@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_bg">
+
+    <TextView
+        android:id="@+id/tv_game_big_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="第一题"
+        android:textColor="#333333"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tv_game_number"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/tv_game_big_number"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="53dp"
+        android:gravity="center"
+        android:text="1/10"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_game_issue"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/tv_game_number"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="1.未发布问题"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_game_issue"
+        android:layout_marginTop="38dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/img_game_a"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/a" />
+
+        <TextView
+            android:id="@+id/tv_game_a"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@id/img_game_a"
+            android:text=""
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="220dp"
+            android:layout_height="2dp"
+            android:layout_below="@id/img_game_a"
+            android:layout_margin="5dp"
+            android:background="@drawable/dash_view"
+            android:layerType="software" />
+
+        <ImageView
+            android:id="@+id/img_game_b"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/tv_game_a"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/b" />
+
+        <TextView
+            android:id="@+id/tv_game_b"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/img_game_b"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@id/img_game_b"
+            android:text=""
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="220dp"
+            android:layout_height="2dp"
+            android:layout_below="@id/img_game_b"
+            android:layout_margin="5dp"
+            android:background="@drawable/dash_view"
+            android:layerType="software" />
+
+        <ImageView
+            android:id="@+id/img_game_c"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/img_game_b"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/c" />
+
+        <TextView
+            android:id="@+id/tv_game_c"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/img_game_c"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@id/img_game_c"
+            android:text=""
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="220dp"
+            android:layout_height="2dp"
+            android:layout_below="@id/img_game_c"
+            android:layout_margin="5dp"
+            android:background="@drawable/dash_view"
+            android:layerType="software" />
+
+        <ImageView
+            android:id="@+id/img_game_d"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/img_game_c"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/c"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_game_d"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/img_game_d"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@id/img_game_d"
+            android:text=""
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>
